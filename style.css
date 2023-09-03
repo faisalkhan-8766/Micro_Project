@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+}
+
+.upper-container {
+    display: flex;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    background: rgb(250, 207, 191);
+}
+
+.left-div {
+    width: 60%;
+    padding-left: 160px;
+    padding-top: 80px;
+}
+
+.heading {
+    margin-bottom: 18px;
+}
+
+.paragraph {
+    width: 60%;
+    margin-bottom: 18px;
+
+}
+
+.small-heading {
+    margin-top: 22px;
+    margin-bottom: 22px;
+}
+
+.input-btn input {
+    padding: 10px 17px;
+    border: 2px solid black;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 17px;
+    background: black;
+    font-size: .8rem;
+    color: white;
+    letter-spacing: .1rem;
+    border: 2px solid rgb(208, 205, 205);
+}
+
+
+.right-div {
+    width: 40%;
+}
+
+.upper-container .right-div {
+    text-align: center;
+    padding: 40px;
+    padding-right: 150px;
+}
+
+.upper-container .right-div img {
+    height: 280px;
+    color: rgb(245, 168, 140);
+    mix-blend-mode: darken;
+}
+
+/* ========CSS for Lower container Starts========= */
+
+.lower-container {
+    height: 40vh;
+    display: flex;
+    background: black;
+}
+
+.lower-left{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.lower-right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bx{
+    font-size: 1.5rem;
+    margin-bottom: 8px;
+    color: aliceblue;
+}
+
+ li{
+    margin: 7px;
+}
+
+a{
+    color: white;
+}
